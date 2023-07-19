@@ -1,0 +1,96 @@
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        
+        body {
+			display: grid;
+            height: 100vh;
+			place-items: center;
+			background: linear-gradient(to right, #a69fe6 0%, #6becec 100%);
+            background-image: url("../../dimg/arkaplanregister.jpg");
+            background-size: 460px;
+        }
+        
+  
+        .container {
+             background: #fff;
+             max-width: 500px;
+             width: 100%;
+             padding: 25px 30px;
+             border-radius: 5px;
+             position: relative;
+        }
+
+        .container h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        .form-group label {
+            display: block;
+            font-size: 14px;
+            color: #555;
+            margin-bottom: 5px;
+        }
+        
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        
+        .form-group input[type="submit"] {
+            background-color: #4caf50;
+            color: #fff;
+            cursor: pointer;
+        }
+        
+        .form-group input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        
+        .form-group input[type="submit"]:focus {
+            outline: none;
+        }
+        
+        .form-group input[type="submit"]:active {
+            background-color: #3e8e41;
+        }
+        
+        body {
+            background-color: #f1c40f;
+        }
+
+
+        .title-bg .title:hover {
+            color: red; /* Yeni renk */
+            text-align: center; 
+            cursor: pointer; /* İmleci el işareti şeklinde gösterme */
+            font-weight: bold; /* Yazıyı kalınlaştırma */
+            font-size: 1.2em; /* Yazıyı büyütme */
+        }
+        
+        .title-bg .title:hover + .btn {
+            background-color: red; /* Butonun arka plan rengi */
+            color: white; /* Butonun metin rengi */
+            border: none; /* Buton kenarlığını kaldırma */
+            padding: 10px 20px; /* Buton içerisindeki boşlukları ayarlama */
+            border-radius: 4px; /* Butonun köşelerini yuvarlatma */
+            transition: background-color 0.3s, color 0.3s; /* Geçiş efektleri */
+            font-weight: bold; /* Yazıyı kalınlaştırma */
+            font-size: 1.1em; /* Yazıyı büyütme */
+        }
+        
+       
+        
